@@ -1,0 +1,30 @@
+{
+  "model_name": "Linear Regression",
+  "model_type": "LinearRegression",
+  "performance_metrics": {
+    "MAE": 0.48430365794681796,
+    "MSE": 0.5143391912768009,
+    "RMSE": 0.7171744496820847,
+    "R\u00b2": 0.012331663548269534
+  },
+  "feature_count": 16,
+  "training_date": "2025-07-04T00:45:45.890285",
+  "feature_names": [
+    "GDP_per_capita",
+    "Population",
+    "Energy_consumption_per_capita",
+    "Renewable_energy_pct",
+    "Industrial_production_index",
+    "Forest_area_pct",
+    "Urbanization_rate",
+    "Education_index",
+    "Healthcare_expenditure_pct",
+    "GDP_per_energy",
+    "Population_density_proxy",
+    "Green_development_index",
+    "Industrial_intensity",
+    "GDP_per_capita_log",
+    "Population_log",
+    "Energy_consumption_per_capita_log"
+  ]
+}

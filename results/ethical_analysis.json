@@ -1,0 +1,46 @@
+{
+  "GDP_bias_analysis": {
+    "mean": {
+      "Low GDP": 0.49218498001530037,
+      "Medium GDP": 0.176932097276004,
+      "High GDP": NaN
+    },
+    "std": {
+      "Low GDP": 0.5403377734166245,
+      "Medium GDP": NaN,
+      "High GDP": NaN
+    },
+    "count": {
+      "Low GDP": 39,
+      "Medium GDP": 1,
+      "High GDP": 0
+    }
+  },
+  "Education_bias_analysis": {
+    "mean": {
+      "Low Education": 0.6374856074731717,
+      "Medium Education": 0.5576195055392044,
+      "High Education": 0.3990078950643364
+    },
+    "std": {
+      "Low Education": 0.5235538336103159,
+      "Medium Education": 0.7681722525605452,
+      "High Education": 0.21699517798070792
+    },
+    "count": {
+      "Low Education": 3,
+      "Medium Education": 17,
+      "High Education": 20
+    }
+  },
+  "Fairness_metrics": {
+    "GDP_coefficient_variation": 1.0978347478214943,
+    "Education_coefficient_variation": 0.9142361360897943
+  },
+  "Recommendations": [
+    "Regular model retraining with diverse datasets",
+    "Include more socio-economic factors in future versions",
+    "Validate predictions with domain experts",
+    "Use model insights to promote equitable climate policies"
+  ]
+}
