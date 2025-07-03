@@ -77,7 +77,7 @@ class StreamlitCarbonPredictor:
         """Load the trained model and preprocessing components"""
         try:
             # Load model
-            model_path = 'models/best_model_random_forest.pkl'
+            model_path = 'models/best_model_linear_regression.pkl'
             if os.path.exists(model_path):
                 with open(model_path, 'rb') as f:
                     self.model = pickle.load(f)
